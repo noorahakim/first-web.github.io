@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Noora Hakim Salih</title>
+        <link rel="shortcut icon" type="image/ico" href="img/favicon.ico" />
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+            integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+<body>
+    <header class="">
+        <div class="header__border">
+
+        </div>
+        <div class="header__container">
+            <img src="img/logo.png" alt="web logo" width="70" height="70">
+            <h1> Noora Hakim Salih</h1>
+        </div>
+    </header>
+    <nav class="menu">
+        <ul class="navbar__list ">
+            <li class="menubar "><a href="index.html">Home</a></li>
+            <li class="menubar "><a href="blog.html">Blog</a></li>
+            <li class="menubar "><a href="schedule.html">Schedule</a></li>
+            <li class="menubar  dropdown__member">
+                <div class="dropdown">
+                    <div class="dropbtn">
+                        <p>Layout Design</p> <i class="fas fa-caret-down"></i>
+                    </div>
+                    <div class="dropdown-content">
+                        <a href="float.html">Float Layout Side nav</a>
+                        <a href="flex.html">Flexbox Layout with Side nav</a>
+                        <a href="grid.html">Blog Grid View</a>
+                    </div>
+                </div>
+            </li>
+            <li class="menubar "><a href="signup.html">Signup</a></li>
+            <li class="menubar "><a href="signin.html">Signin</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h2 id="signup-header">Signup Form</h2>
+        <form class="signup-form">
+            <label>Username <br><input id="username" type="text" placeholder="Username"></label>
+            <label>Full Name <br> <input id="fullname" type="text" placeholder="Full name"></label>
+            <label>Email <br><input id="email" type="email" placeholder="Email"></label>
+            <label>Tell Phone <br><input id="tellphone" type="tell" placeholder="Tell Phone"></label>
+            <label>Password <br><input id="password" type="password" placeholder="Password"></label>
+            <label>Date of Birth <br><input id="date-of-birth" type="date"></label>
+            <label>Profile Color <br><input id="profilecolor" type="color" value="#0053A0"></label>
+
+            <fieldset class="fieldset">
+                <legend class="radio-legend">Marital Status</legend>
+                <p>
+                    <input type="radio" id="single" name="status">
+                    <label for="single">Single</label>
+                </p>
+                <p>
+                    <input type="radio" id="married" name="status">
+                    <label for="married">Married</label>
+                </p>
+                <p>
+                    <input type="radio" id="private" name="status">
+                    <label for="private">It is private</label>
+                </p>
+            </fieldset>
+            <label for="child-number">No. of childern</label>
+            <select id="child-number">
+                <option value="none">none</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+            </select>
+            <label for="degree">Choose your degrees</label>
+        <select id="degree" name="degree" multiple>
+            <option value="Diploma">Diploma</option>
+            <option value="Bachelore of Science">Bachelore of Science (BSc)</option>
+            <option value="Bachelore of Arts">Bachelore of Arts (BA)</option>
+            <option value="High Diploma">High Diploma</option>
+            <option value="Master of Science">Master of Science (MSc)</option>
+            <option value="Master of Art">Master of Art (MA)</option>
+            <option value="Phelosophy of Doctorate">Phelosophy of Doctorate (phD)</option>
+        </select>
+        <label for="textarea">About Yourself</label>
+        <textarea id="textarea" placeholder="About Yourself"></textarea>
+        <input class="file" type="file">
+        <fieldset class="fieldset">
+            <legend class="radio-legend">Gender</legend>
+            <p>
+                <input type="radio" id="male" name="gender">
+                <label for="male">Male</label>
+            </p>
+            <p>
+                <input type="radio" id="female" name="gender">
+                <label for="female">Female</label>
+            </p>
+            </fieldset>
+            <fieldset class="fieldset">
+                <legend class="radio-legend">Agrrement</legend>
+                <p>
+                    <input type="checkbox" id="terms" name="gender">
+                    <label for="terms"> I have read all the terms</label>
+                </p>
+                <p>
+                    <input type="checkbox" id="agree" name="gender">
+                    <label for="agree">Yes i`m agree</label>
+                </p>
+                </fieldset>
+                <div class="button">
+                <button class="button b-signup">Signup</button>
+                <button class="button b-reset">Reset</button>
+            </div>
+    </main>
+    <footer>
+        <div class="footerBorder"></div>
+        <div class="footer-content">
+            <div class="content">
+                <h4 class="footer-header">Sitemap </h4>
+                <ul>
+                    <li><a href="#"></a> Home</li>
+                    <li><a href="#"></a> About</li>
+                    <li><a href="#"></a> Contact</li>
+                    <li><a href="#"></a> Login</li>
+                </ul>
+            </div>
+
+
+            <div class="content">
+                <h4 class="footer-header">Terms and Quick Links</h4>
+                <ul>
+                    <li><a href="#"></a> Term of usage</li>
+                    <li><a href="#"></a> Link1</li>
+                    <li><a href="#"></a> Link2</li>
+                    <li><a href="#"></a> Link3</li>
+                </ul>
+            </div>
+
+
+            <div class="content">
+                <h4 class="footer-header">Address and Contact</h4>
+                <ul>
+                    <li class="footer-info">City,Governorate,Country</li>
+                    <li class="footer-info">Phone:0964 000 000 0000</li>
+                    <li class="footer-info">Email:Example@domain.com</li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
